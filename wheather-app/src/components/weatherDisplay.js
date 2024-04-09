@@ -4,7 +4,7 @@ const WeatherDispaly = ({ weather, units }) => {
     const tempUnit = units === "metric" ? "°C" : "°F";
 
     return (
-        <div className="section section_temp">
+        <div className="section section__temp">
             <div className="icon">
                 <h3>{`${weather.name}, ${weather.country}`}</h3>
                 <img src={weather.iconURL} alt="weather-icon" />
